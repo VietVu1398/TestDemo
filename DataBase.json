@@ -8,7 +8,7 @@
                     {"title":"NAIL ARTS",        "image": "images/iconNailArts.png"},      
                     {"title":"JEWELRY",          "image": "images/nhan2.png"},  
                     {"title":"WEDDING KITS",     "image": "images/iconWeddingKits.png"},  
-                    {"title":"UPCOMING",         "image": "images/iconUpComing.jpg"}
+                    {"title":"UPCOMING",         "image": "images/iconUpcoming.jpg"}
     ],   
     
     "cart":[],

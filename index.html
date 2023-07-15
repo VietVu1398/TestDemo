@@ -19,13 +19,9 @@
     <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="products-style.css">
     <script src="index-controller.js"></script>
-
     <title>Index</title>   
-    <style>
- 
-    </style>
-    
 </head>
+
 <body class="container-fluid" ng-app="myApp" ng-controller="myCtrl">
     <header class="navbar">
 
@@ -54,7 +50,7 @@
 
     <!-- --------------------------------------------------------------------------- -->  
     <!-- thanh menu-->
-    <ul id="menu" style=" background-color: rgba(255, 255, 255, 0.4);;">
+    <ul id="menu">
         <li id="hm"><a href="#/!"><i class="fa fa-home"></i> Home</a></li>
         <li><a href="#!gallery">Gallery</a></li>
         <li><a href="#!products" ng-click="getCat('ALL PRODUCTS');setClickedPage(0)">Products <i class="fa fa-caret-down"></i></a>
@@ -98,61 +94,68 @@
             <span class="glyphicon glyphicon-arrow-up" style="font-size: 20pt;"></span>
         </button>
     </div>
-
-    <footer>
-        <div class="cuis">
-            <div class="cui_1">
-               <div class="cui_1_1">
-                    <p><b>SIGN UP FOR</b></p>
-                    <p>Would you like to receive a special promotion? <br>Register now.</p>
-                    
-
-               </div>
-               <div class="cui_1_2">
-                    <p><b>CUSTOMER SUPPORT</b></p>
-                    <p>Terms of Service</p>
-                    <p>Shop system</p>
-                    <p>Frequently asked questions</p>
-                    <p>Contact</p>
-                    <p>Check your order</p>
-               </div>
-               <div class="cui_1_3">
-                    <p><b>POLICY ONLY</b></p>
-                    <p>Product warranty </p>
-                    <p>Sales policy </p>
-                    <p>Delivery policy</p>
-                    <p>Return Policy</p>
-               </div>
-            </div>
-            <div class="cui_2">
-                <div>
+<!-- =========================== PAGE FOOTER ================================ -->
+    <footer class="pagefooter" width="100%" >
+        <hr>
+        <div class="icon-footer">
+            <ul class="list-social-media">
+              <li>
+                <a href="#" class="facebook">
+                  <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                  <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="twitter">
+                  <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                  <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="instagram">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="youtube">
+                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        <table width="93%" class="infofooter" >
+            <tr>
+                <td class="footercol1">
                     <p>
-                        <b style="font-size: 30px; font-family: Optima;"> About us</b>                       
+                        <span style="font-size: 30px;"> About us</span> &nbsp; &nbsp; &nbsp;
+                        <a href="#!aboutus" class="logofooter">SIMPLON</a>
                     </p>
-                    <a href="#">SIMPLON</a>
-                    
-                </div>
-                <div>
-                    <p> 
-                        adress: xxx/123/xxx <br>
-                        phone: 0123xxxx<br>
-                        email: xxx@123gmail.com
+                    <p > 
+                        <strong>Adress:</strong> 62 Street 36, Hiep Binh Chanh Ward, Thu Duc City, Vietnam <br>
+                        <strong>Phone:</strong> +84 903051545<br>
+                        <strong>Email:</strong> TienPDHT5S2302039@fpt.edu.vn
                     </p>
-                </div>
-                <div>
-                    <p>copyright belongs to the company xxx| provide xxx</p>
-                </div>
-                
-            </div>
-            
-        </div>
-
-
-        <span align="left" style="  font-weight: bold; 
-                                    margin-bottom:0px;
-                                    margin-left: 15px;">
-            &copy; Copyright FPT Aptech
-        </span>
+                </td>
+                <td class="footercol2">
+                    <p>
+                        <p><b>POLICY ONLY</b></p>
+                        Product warranty <br>
+                        Sales policy <br>
+                        Delivery policy <br>  
+                        Return Policy
+                    </p>
+                </td>
+                <td class="footercol3">
+                    <p><b>CUSTOMER SUPPORT</b></p>
+                    <a >Terms of Service</a> <br>
+                    <a href="#!contactus">Shop system</a> <br>
+                    <a href="#!contactus">You have question? Send feedback to us!</a><br>
+                    <a href="#!contactus">Contact Us</a>
+                </td>
+            </tr>
+        </table>
     </footer>
 </body>
 </html>

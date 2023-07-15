@@ -239,12 +239,14 @@ app.controller('myCtrl', function($scope, $http){
 
     // ------------------- DISPLAY ALERT -----------------------
     // ----- Add to Cart Alert 
+    $("#successFeedback").hide();
     $("#addedAlert").hide();
     function showAddedAlert() {
         $("#addedAlert").fadeTo(500, 500).slideUp(500, function() {
             $("#addedAlert").slideUp(500);
         });
     };
+    
     //----- Success Place Order Alert
     $("#successOrder").hide();
     function showSuccessAlert() {
@@ -357,32 +359,13 @@ function autoSpace() {
      }
 }
 
-//---  Feedback Regexp
-function kiemtra(){
-    var sName = document.getElementById("fullName").value;
-    var reName = /^[\w\s]+$/;
-       
-       if(!reName.test(sName)){
-           alert("Full name cannot left blank! ");
-           document.getElementById("fullName").focus();
-           return false;
-        }
-
-
-    var sEmail = document.getElementById("Email").value;
-    var reEmail = /^[A-Za-z]\w+[@]\w+[.]\w{3}$/;
-        if(!reEmail.test(sEmail)){
-           alert("Email is not invalid! ");
-           document.getElementById("Email").focus();
-           return false;
-       }
-    
-    var message = new Array();
-    message.push("Send Successfull !!");
-    
-    alert(message.join("\n"));
-
-}
-
-
+// ----- Success Feedback Alert 
+function showFeedbackAlert() {
+    document.getElementById('fullName').value='';
+    document.getElementById('Email').value='';
+    document.getElementById('message').value='';
+    $("#successFeedback").fadeTo(3000, 500).slideUp(500, function() {
+        $("#successFeedback ").slideUp(500);
+    });
+};
 

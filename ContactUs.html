@@ -7,10 +7,10 @@
   <title>Contact Us</title>
   <style>
     /* CSS for Map */
-    *{
+    body {
       margin: 0;
       box-sizing: border-box;
-      font-family: Arial, Helvetica, sans-serif;
+      /* font-family: Arial, Helvetica, sans-serif; */
     }
     #map {
       height: 400px;
@@ -90,82 +90,20 @@
     font-size: 18px;
     padding-right: 10px;
    }
-    /* CSS for Footer */
-    footer {
-      background-color: #f2f2f2;
-      padding: 20px;
-      text-align: center;
-    }
-    ul{
-      list-style: none;
-    }
-    a{
-      text-decoration: none;
-    }
-    ul.list-social-media{
-      display: flex;
-      justify-content: center;
-      margin-top: 20px;
-    }
-    .list-social-media li{
-      margin: 0px 5px;
-    }
-    ul.list-social-media li a{
-      color: #333;
-      text-align: center;
-      font-size: 26px;
-      height: 50px;
-      width: 50px;
-      line-height: 50px;
-      background-color:#f5f5f5;
-      display: block;
-    }
-    ul.list-social-media li a i{
-      line-height: 50px;
-      width: 100% ;
-      height: 100%;
-      transition: all 0.3s ease-in-out;
-    }
-    ul.list-social-media li a:hover{
-        color: #f2f2f2;
-    }
-
-    ul.list-social-media li a.facebook:hover{
-      background-color: #1877F2;
-      border-radius: 30px;
-    }
-    ul.list-social-media li a.twitter:hover{
-      background-color: #1DA1F2;
-      border-radius: 30px;
-    }
-    ul.list-social-media li a.instagram:hover{
-      background-color: #E4405F ;
-      border-radius: 30px;
-    }
-    ul.list-social-media li a.youtube:hover{
-      background-color: #CD201F ;
-      border-radius: 30px;
-    }
-
-    ul.list-social-media li a:hover i:nth-child(1){
-      transform: translateY(-50px);
-    }
-    ul.list-social-media li i:nth-child(2){
-      opacity: 0;
-    }
-    ul.list-social-media li a:hover i:nth-child(2){
-      transform: translateY(-50px);
-      opacity: 1;
-    }
-
-    /* .icon-footer a{
-      padding: 30px 10px;
-      font-size: 24pt;
-      overflow: hidden; 
-      border: 1px solid #f2f2f2;
-    } */
-
-
+   /* Alert Success Send Feedback */
+   #successFeedback {
+  width: 40%;
+  padding: 20px 10px;
+  border-radius: 10px;
+  font-size: 15pt;
+  background-color: #fff9f9f6;
+  position: fixed; 
+  top: 100px; 
+  left: 50%;
+  transform: translate(-50%,0);
+  text-align: center;
+}
+    
   </style>
 </head>
 
@@ -203,20 +141,28 @@
             </div>
           </div>
         </div>
-        <div class="column">
+        <div class="column">  <!--FEEDBACK-->
           <h2 align="center">Send Feedback</h2>
-          <form class="feedback-form"  onsubmit=" return kiemtra()">
+          <form class="feedback-form"  onsubmit="showFeedbackAlert()" >
             <label for="name">Fullname</label>
-            <input type="text" id="fullName" name="fullName" placeholder="Enter Your Fullname">
+            <input type="text" id="fullName" name="fullName" placeholder="Enter Your Fullname" required>
     
             <label for="email">Email</label>
-            <input type="email" id="Email" name="Email" placeholder="abc@gmail.com" >
+            <input type="email" id="Email" name="Email" placeholder="abc@gmail.com" required>
     
             <label for="message">Message</label>
-            <textarea id="message" name="message" rows="4"></textarea>
+            <textarea id="message" name="message" rows="4" required></textarea>
     
             <button type="submit">Send</button>
           </form>
+          <div id="successFeedback" class="alert">  <!--Success Send Feedback Alert-->
+            <p>
+                <span id="logo" style="font-size: 20pt; float: left;">SIMPLON</span>
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+            </p><br><br>
+            <p><i class="fa fa-check-circle" style="font-size: 30pt; color: green ;"></i></p>
+            <p>We have received your Feedback, thank you! </p>
+        </div>
         </div>
         <div class="column">
           <div class="content1">
@@ -274,41 +220,6 @@
         </div>
 
       </div>
-    
-      <footer>
-        <div class="footer-content">
-          <div class="icon-footer">
-            <ul class="list-social-media">
-              <li>
-                <a href="#" class="facebook">
-                  <i class="fa fa-facebook-square" aria-hidden="true"></i>
-                  <i class="fa fa-facebook-square" aria-hidden="true"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="twitter">
-                  <i class="fa fa-twitter-square" aria-hidden="true"></i>
-                  <i class="fa fa-twitter-square" aria-hidden="true"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="instagram">
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="youtube">
-                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
-                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <p style="margin-top: 15px;">&copy; 2023 SIMPLON's Beauty care. All rights reserved.</p>
-        </div>
-        
-      </footer>
   </div>
 
   
