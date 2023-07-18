@@ -153,7 +153,7 @@ height: 50px;
 
 }
 .openbtn:hover {
- color: rebeccapurple;
+ background-color: #bb515b;
 }
 
 /* ------------------------search show hide---------------------------- */
@@ -569,11 +569,13 @@ ul.list-social-media li a:hover i:nth-child(2){
   z-index: -1;
   } 
   #prev, #next{
+  background-color: #0000001e;
+  color: white;
   padding:15px 20px;
   border-radius: 50%;
-  border: 1px solid black;
   cursor: pointer;
   position: relative;
+  border: none;
   top: -20px;
   }
   #prev { float: left;}

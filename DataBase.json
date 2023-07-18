@@ -133,22 +133,6 @@
         {"id":"wk32",   "category":"WEDDING KITS" , "name":"ASSEMBLED Destination Wedding Hangover Kits" , "picture":"wdkit32.png",  "price":6,  "qty":1},
         {"id":"wk33",   "category":"WEDDING KITS" , "name":"Makeup Touch-Up Kit" , "picture":"wdkit33.png",  "price":19,  "qty":1},
         
-        {"id":"u01",   "category":"UPCOMING"      , "name":"NeoCell Super Collagen with Vitamin C, 250 Collagen Pills"      , "picture":"upcoming01.png",  "price":35,  "qty":1},
-        {"id":"u02",   "category":"UPCOMING"      , "name":"Nu Skin Beauty Focus Collagen Powder from Nu Skin Australia"      , "picture":"upcoming02.png",  "price":89,  "qty":1},
-        {"id":"u03",   "category":"UPCOMING"      , "name":"Step Above Proteins, Beauty Collagen Peptides, Berry Hibiscus"      , "picture":"upcoming03.png",  "price":29,  "qty":1},
-        {"id":"u04",   "category":"UPCOMING"      , "name":"ELEMIS Pro-Collagen Marine Cream"      , "picture":"upcoming04.png",  "price":138,  "qty":1},
-        {"id":"u05",   "category":"UPCOMING"      , "name":"Perfect Asta Collagen Powder Rich Premium 228g"      , "picture":"upcoming05.png",  "price":44,  "qty":1},
-        {"id":"u06",   "category":"UPCOMING"      , "name":"Vb program Vital Beautie VB Super Collagen Gold Premium, 20ml X 30 Ampoules, Liquid Marine Collagen"      , "picture":"upcoming06.png",  "price":107,  "qty":1},
-        {"id":"u07",   "category":"UPCOMING"      , "name":"Filorga Time-Filler Super Smoothing Face Mask"      , "picture":"upcoming07.png",  "price":14,  "qty":1},
-        {"id":"u08",   "category":"UPCOMING"      , "name":"Pacifica Beauty, Vegan Collagen Hydrate & Plump Face Mask"      , "picture":"upcoming08.png",  "price":5,  "qty":1},
-        {"id":"u09",   "category":"UPCOMING"      , "name":"Project E Beauty 7 Colors LED Face Mask Light Therapy Anti-Aging Facial Skincare Routine"      , "picture":"upcoming09.png",  "price":148,  "qty":1},
-        {"id":"u10",   "category":"UPCOMING"      , "name":"Garden of Life Vitamin Code Whole Food Multivitamin for Men-120 Capsules"      , "picture":"upcoming10.png",  "price":29,  "qty":1},
-        {"id":"u11",   "category":"UPCOMING"      , "name":"Garden of Life Multivitamin for Women, Vitamin Code Women's Multi-120 Capsules"      , "picture":"upcoming11.png",  "price":31,  "qty":1},
-        {"id":"u12",   "category":"UPCOMING"      , "name":"GIVOL Vitamin D3 K2 Organic drops (as Lichen) +K2 (as MK4 & MK7) in Coconut Oil"      , "picture":"upcoming12.png",  "price":40,  "qty":1},
-        {"id":"u13",   "category":"UPCOMING"      , "name":"Perricone MD Vitamin C Ester Brightening Overnight Treatment 2 oz"      , "picture":"upcoming13.png",  "price":99,  "qty":1},
-        {"id":"u14",   "category":"UPCOMING"      , "name":"MaryRuth Organics Vitamin, USDA, Kids Multivitamin Gummy for Ages 4+"      , "picture":"upcoming14.png",  "price":30,  "qty":1},
-        {"id":"u15",   "category":"UPCOMING"      , "name":"NATURELO Whole Food Multivitamin for Women"      , "picture":"upcoming15.png",  "price":80,  "qty":1},
-        
         {"id":"s01",   "category":"SKIN"          , "name":"Facial massage oil Biyokea M1 Balancing - 200ml", "picture":"skin_01.png", "price":14,"qty":1},
         {"id":"s02",   "category":"SKIN"          , "name":"Rice Bran Extract Massage Oil(200ml)", "picture":"skin_02.png", "price":22,"qty":1},
         {"id":"s03",   "category":"SKIN"          , "name":"Ginger Cleansing Oil (200ml)", "picture":"skin_03.png", "price":23,"qty":1},
@@ -238,10 +222,23 @@
         {"id":"muk21",   "category":"MAKE-UP KITS", "name":"Mehron Makeup Special FX All-Pro Makeup Kit", "picture":"muk_21.png", "price":36,"qty":1},
         {"id":"muk22",   "category":"MAKE-UP KITS", "name":"Kylie Jenner Cosmetics Lip Kit -(Bare) Liquid Lipstick And Lip Liner Matte", "picture":"muk_22.png", "price":40,"qty":1},
         {"id":"muk23",   "category":"MAKE-UP KITS", "name":"Luminess Air Airbrush Basic Makeup Starter Kit, 0.25 oz x 4 Bottles", "picture":"muk_23.png", "price":59,"qty":1},
-        {"id":"muk24",   "category":"MAKE-UP KITS", "name":"LAURA GELLER NEW YORK The Ultimate Glam Look 5pc Kit - Medium", "picture":"muk_24.png", "price":128,"qty":1}
-
+        {"id":"muk24",   "category":"MAKE-UP KITS", "name":"LAURA GELLER NEW YORK The Ultimate Glam Look 5pc Kit - Medium", "picture":"muk_24.png", "price":128,"qty":1},
+        {"id":"u01",   "category":"UPCOMING"      , "name":"NeoCell Super Collagen with Vitamin C, 250 Collagen Pills"      , "picture":"upcoming01.png",  "price":35,  "qty":1},
+        {"id":"u02",   "category":"UPCOMING"      , "name":"Nu Skin Beauty Focus Collagen Powder from Nu Skin Australia"      , "picture":"upcoming02.png",  "price":89,  "qty":1},
+        {"id":"u03",   "category":"UPCOMING"      , "name":"Step Above Proteins, Beauty Collagen Peptides, Berry Hibiscus"      , "picture":"upcoming03.png",  "price":29,  "qty":1},
+        {"id":"u04",   "category":"UPCOMING"      , "name":"ELEMIS Pro-Collagen Marine Cream"      , "picture":"upcoming04.png",  "price":138,  "qty":1},
+        {"id":"u05",   "category":"UPCOMING"      , "name":"Perfect Asta Collagen Powder Rich Premium 228g"      , "picture":"upcoming05.png",  "price":44,  "qty":1},
+        {"id":"u06",   "category":"UPCOMING"      , "name":"Vb program Vital Beautie VB Super Collagen Gold Premium, 20ml X 30 Ampoules, Liquid Marine Collagen"      , "picture":"upcoming06.png",  "price":107,  "qty":1},
+        {"id":"u07",   "category":"UPCOMING"      , "name":"Filorga Time-Filler Super Smoothing Face Mask"      , "picture":"upcoming07.png",  "price":14,  "qty":1},
+        {"id":"u08",   "category":"UPCOMING"      , "name":"Pacifica Beauty, Vegan Collagen Hydrate & Plump Face Mask"      , "picture":"upcoming08.png",  "price":5,  "qty":1},
+        {"id":"u09",   "category":"UPCOMING"      , "name":"Project E Beauty 7 Colors LED Face Mask Light Therapy Anti-Aging Facial Skincare Routine"      , "picture":"upcoming09.png",  "price":148,  "qty":1},
+        {"id":"u10",   "category":"UPCOMING"      , "name":"Garden of Life Vitamin Code Whole Food Multivitamin for Men-120 Capsules"      , "picture":"upcoming10.png",  "price":29,  "qty":1},
+        {"id":"u11",   "category":"UPCOMING"      , "name":"Garden of Life Multivitamin for Women, Vitamin Code Women's Multi-120 Capsules"      , "picture":"upcoming11.png",  "price":31,  "qty":1},
+        {"id":"u12",   "category":"UPCOMING"      , "name":"GIVOL Vitamin D3 K2 Organic drops (as Lichen) +K2 (as MK4 & MK7) in Coconut Oil"      , "picture":"upcoming12.png",  "price":40,  "qty":1},
+        {"id":"u13",   "category":"UPCOMING"      , "name":"Perricone MD Vitamin C Ester Brightening Overnight Treatment 2 oz"      , "picture":"upcoming13.png",  "price":99,  "qty":1},
+        {"id":"u14",   "category":"UPCOMING"      , "name":"MaryRuth Organics Vitamin, USDA, Kids Multivitamin Gummy for Ages 4+"      , "picture":"upcoming14.png",  "price":30,  "qty":1},
+        {"id":"u15",   "category":"UPCOMING"      , "name":"NATURELO Whole Food Multivitamin for Women"      , "picture":"upcoming15.png",  "price":80,  "qty":1}
         
-
         
     ]
 }

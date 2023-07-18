@@ -1,5 +1,5 @@
 var app = angular.module("myApp", ["ngRoute"]);
-//1. CẤU HÌNH ROUTE
+//1. ROUTE
 app.config(function($routeProvider){ 
     $routeProvider
     .when("/", {
@@ -30,7 +30,7 @@ app.config(function($routeProvider){
   
 
 // ----------------------------
-//2. PHÁT TRIỂN CONTROLLER
+//2. CONTROLLER
 app.controller('myCtrl', function($scope, $http){
   
     //-----------------   LOAD DATA   -----------------------
@@ -286,6 +286,7 @@ app.controller('myCtrl', function($scope, $http){
         let lists = document.querySelectorAll('.item');
         document.getElementById('slide').prepend(lists[lists.length-1]);
     }
+    
 
     // ------ Gallery Carousel
     let slider = document.querySelector('.slider .list');
