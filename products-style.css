@@ -5,6 +5,7 @@
   list-style-type: none;
   width: 120px;
   height: 150px;
+  border: 2px solid black;
 }
 .categoryBtn p {
   font-size: 12pt;
